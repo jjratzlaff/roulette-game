@@ -19,7 +19,7 @@ function wheelSpin() {
       updateBalance(result, betAmount);
       updateBalanceDisplay();
       
-    }, 3000);
+    }, 100);
   }
 
 
