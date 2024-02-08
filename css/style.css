@@ -1,0 +1,28 @@
+#wheel {
+  width: 300px;
+  height: 300px;
+  border: 2px solid black;
+  border-radius: 50%;
+  position: relative;
+  margin: 20px auto;
+}
+
+
+button {
+  margin: 5px;
+  padding: 10px;
+  cursor: pointer;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+}
+
+button.black {
+  background-color: black;
+  color: white;
+}
+
+button.red {
+  background-color: red;
+  color: white;
+}
