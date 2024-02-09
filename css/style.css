@@ -1,28 +1,98 @@
+body {
+  font-family: sans-serif;
+  text-align: center;
+}
+
 #wheel {
   width: 300px;
   height: 300px;
-  border: 2px solid black;
+  background: url('https://toppng.com/uploads/preview/roulette-playing-wheel-11552769537o5cxyb7yrc.png') no-repeat;
+  background-size: cover;
   border-radius: 50%;
   position: relative;
   margin: 20px auto;
 }
 
-
-button {
-  margin: 5px;
-  padding: 10px;
-  cursor: pointer;
-  border: none;
-  border-radius: 5px;
+.black, .red {
+  padding: 10px 20px;
+  border-radius: 15%;
   font-size: 16px;
+  cursor: pointer;
 }
 
-button.black {
+.black {
   background-color: black;
   color: white;
 }
 
-button.red {
+.red {
   background-color: red;
   color: white;
+}
+
+#resultDisplay {
+  font-size: 18px;
+  font-weight: bold;
+  margin: 20px;
+}
+
+#balance {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+#resultMessage {
+  margin: 10px;
+  font-size: 25px;
+  color: black;
+}
+
+#playAgainBtn {
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+  background-color: #3fb143;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  position: relative;
+  margin: 20px auto;
+}
+
+#playAgainBtn:hover {
+  background-color: #238328;
+}
+
+#betAmount {
+  width: 50px;
+  margin-right: 5px;
+  padding: 5px;
+  font-size: 16px;
+}
+
+button {
+  padding: 10px 20px;
+  border-radius: 15%;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+#resultDisplay, p, #resultMessage, #playAgainBtn {
+  display: inline-block;
+}
+
+@media (max-width: 600px) {
+  #wheel {
+    width: 200px;
+    height: 200px;
+  }
+
+  .black, .red, #betAmount, button {
+    font-size: 14px;
+  }
+
+  #resultDisplay, p, #resultMessage, #playAgainBtn {
+    display: block;
+    margin-top: 10px;
+  }
 }
