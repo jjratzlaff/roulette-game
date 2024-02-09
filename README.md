@@ -17,3 +17,5 @@ YOU START THE GAME WITH $100. BEGIN THE GAME BY TYPING IN A BET AMOUNT AND SELEC
 -ADDING CASINO ANIMATIONS AND STYLES
 
 https://jjratzlaff.github.io/roulette-game/
+
+https://imgur.com/a/241LgdV
