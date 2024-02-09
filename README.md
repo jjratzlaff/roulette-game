@@ -18,4 +18,4 @@ YOU START THE GAME WITH $100. BEGIN THE GAME BY TYPING IN A BET AMOUNT AND SELEC
 
 https://jjratzlaff.github.io/roulette-game/
 
-https://imgur.com/a/241LgdV
+<img src="https://imgur.com/a/241LgdV" alt="Image">
